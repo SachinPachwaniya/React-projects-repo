@@ -1,0 +1,30 @@
+.spinner{
+    display: grid;
+    place-self: center;
+    min-height: 80vh;
+}
+.spin{
+    width: 65px;
+    height: 65px;
+    place-self: center;
+    border:5px solid #bdbdbd;
+    border-top-color: #4500c6;
+    border-radius: 50%;
+    animation: rotate 2s infinite;
+}
+.coin{
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    
+    align-items: center;
+}
+.coin-name img{
+    width: 150px;
+}
+@keyframes rotate {
+    100%{
+        transform: rotate(360deg);
+    }
+}
