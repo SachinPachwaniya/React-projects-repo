@@ -48,14 +48,14 @@ const Coin = () => {
     fetchHistoricalData();
   }, [currency]);
 
-  if (coinData && historicalData) {
+  if (coinData ) {
     return (
       <div className='coin'>
         <div className="coin-name">
           <img src={coinData.image.large} alt={coinData.name} />
           <p><b>{coinData.name} ({coinData.symbol.toUpperCase()})</b></p>
+          
         </div>
-
         {/* <div className="coin-chart">
           <LineChart historicalData={historicalData} />
         </div> */}

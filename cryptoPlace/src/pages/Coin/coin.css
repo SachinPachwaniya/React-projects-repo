@@ -23,6 +23,9 @@
 .coin-name img{
     width: 150px;
 }
+.coin-name p{
+    text-align: center;
+}
 @keyframes rotate {
     100%{
         transform: rotate(360deg);
